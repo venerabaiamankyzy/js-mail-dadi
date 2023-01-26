@@ -26,10 +26,9 @@ for (let i = 0; i < listEmail.length; i++) {
   const currentEmail = listEmail[i];
 
   if (userEmail === currentEmail) {
+    console.log(`${userEmail} hai l'accesso`);
+  }  else
+    console.log(`${userEmail} non hai l'accesso`);
   }
-}
-if (userEmail) {
-  console.log(`${userEmail} hai l'acesso`);
-} else {
-  console.log(`${userEmail} non hai l'acesso`);
-}
+
+
